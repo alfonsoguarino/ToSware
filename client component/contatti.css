@@ -1,0 +1,107 @@
+body{
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+
+#a{
+    color: white;
+    text-decoration: none;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: large;
+}
+
+#bottoneIa {
+    background-color: #C00001;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#bottoneIa:hover {
+    background-color: #a00800;
+}
+
+
+
+.centered {
+    text-align: center;
+    padding: 0px 20%;
+}
+.centered > div {
+    display: inline-block;
+    text-align: center;
+ 	max-width: 300px;
+}
+
+#team{
+    width: 600px;
+}
+
+.team-table .info{
+ 	height: 115px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 1%;
+}
+
+::selection {
+    background: #C00001;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(35, 31, 32);
+    color: #FFFFFF;
+}
+
+
+.row-cols-1{
+    max-width: 65%;
+}
+
+a{
+    text-decoration: none;
+    height: 35px ;
+    width: 75px;
+}
+
+.pfoot{
+    background: white;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: small;
+}
+
+div.foot{
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    align-self: center;
+}
+
+a.fott{
+    text-decoration: none;
+    height: 35px ;
+    width: 75px;
+}
+.fooot{
+    font-size: small;
+}
+
+#finale{
+    font-size: small;
+    background: white;
+    font-family: Roboto;
+    margin-left: 13px;
+}
+
+#con{
+    margin-top: 16px;
+}

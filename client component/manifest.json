@@ -1,0 +1,27 @@
+{
+  "name": "ToSware",
+    "version": "1.0",
+    "description": "Tool per analizzare le policy",
+
+    "permissions": ["activeTab","declarativeContent","storage"],
+    "background": {
+      "scripts": [ "/jquery_3.4.1_jquery.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+       "default_icon": {
+        "16": "images/ToSIcona.png",
+        "48": "images/ToSIcona.png",
+        "128": "images/ToSIcona.png"
+      }
+    },
+      "icons": {
+      "16": "images/ToSIcona.png",
+      "48": "images/ToSIcona.png",
+      "128": "images/ToSIcona.png"
+    },
+    "manifest_version": 2
+    
+  }
+

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ToSware Information</title>
+               <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="istruzioni.css">
+        <link rel="icon" type="image/png" href="images/ToSIcona.png"/>
+    </head>
+
+    <body>
+        <div align="center" style="color: transparent">
+            <img src="ToSLogo.png" width="250" height="100">
+        </div>
+<div align="center">
+        <p class="intro">ToSware is a web server for the automatic detection of potentially unfair clauses in Terms of Service documents.
+            To use our system, copy-paste the text you want to process in the main text box, and then click on the Analyze button. <br> <br>
+        You will be able to view the following information</p>
+</div>
+        <hr>
+        <div align="center" > <p class="intro"> Each clause is assigned to a category type. </p> </div>
+        <div id="descrizione" >
+            <img src="icone/j.png" align="left">
+        <p style="border: solid green ; background-color: #f2f2f2">
+
+           The <b style="color: green">jurisdiction clause</b> stipulates what courts will have the competence to
+            adjudicate disputes under the contract. Jurisdiction clauses giving consumers
+            a right to bring disputes in their place of residence were marked as clearly fair,
+            whereas clauses stating that any judicial proceeding takes a residence away
+            (i.e. in a different city, different country) were marked as clearly unfair. This
+            assessment is grounded in ECJ’s case law.
+        </p>
+<br>
+            <img src="icone/law.png" align="left">
+        <p style="border: solid orange; background-color: #f2f2f2" >
+
+            The <b style="color: orange"> choice of law </b> clause specifies what law will govern the contract,
+            meaning also what law will be applied in potential adjudication of a dispute
+            parising under the contract. Clauses defining the applicable law as the law of
+            the consumer’s country of residence were marked as clearly fair.
+
+        </p>
+
+            <br>
+
+            <img src="icone/ltd.png" align="left">
+        <p style="border: solid dimgray; background-color: #f2f2f2" >
+
+           The <b style="color: dimgray"> limitation of liability </b> clause stipulates that the duty to pay damages
+            is limited or excluded, for certain kind of losses, under certain conditions.
+            Clauses that explicitly affirm non-excludable providers’ liabilities were marked
+            as clearly fair.
+
+        </p>
+<br>
+            <img src="icone/ch.png" align="left">
+        <p style="border: solid blue; background-color: #f2f2f2">
+
+            The <b style="color: blue">unilateral change </b> clause specifies the conditions under which the
+            service provider could amend and modify the terms of service and/or the service itself.
+            Such clause was always considered as potentially unfair. This is
+            because the ECJ has not yet issued a judgment in this regard, though the Annex to the Directive contains several examples supporting such a qualification.
+
+        </p>
+<br>
+            <img src="icone/ter.png" align="left">
+        <p style="border: solid darkcyan; background-color: #f2f2f2">
+
+           The <b style="color: darkcyan">unilateral termination</b>  clause gives provider the right to suspend
+            and/or terminate the service and/or the contract, and sometimes details the
+            circumstances under which the provider claims to have a right to do so. Unilateral termination clauses that specify reasons for termination were marked
+            as potentially unfair. whereas clauses stipulating that the service provider may
+            suspend or terminate the service at any time for any or no reasons and/or without notice were marked as clearly unfair.
+
+        </p>
+<br>
+             <img src="icone/use.png" align="left">
+        <p style="border: solid saddlebrown; background-color: #f2f2f2">
+
+           The <b style="color: saddlebrown"> contract by using </b> clause stipulates that the consumer is bound by
+            the terms of use of a specific service, simply by using the service, without even
+            being required to mark that he or she has read and accepted them. We always
+            marked such clauses as potentially unfair. The reason for this choice is that
+            a good argument can be offered for these clauses to be unfair, because they
+            originate an imbalance in rights and duties of the parties, but this argument
+            has no decisive authoritative backing yet, since the ECJ has never assessed
+            a clause of this type.
+
+        </p>
+<br>
+             <img src="icone/cr.png" align="left">
+        <p style="border: solid sandybrown; background-color: #f2f2f2">
+
+          The <b style="color: sandybrown"> content removal </b> gives the provider a right to modify/delete user’s
+            content, including in-app purchases, and sometimes specifies the conditions
+            under which the service provider may do so. As in the case of unilateral termination, clauses that indicate conditions for content removal were marked as
+            potentially unfair, whereas clauses stipulating that the service provider may
+            remove content in his full discretion, and/or at any time for any or no reasons and/or without notice nor possibility to retrieve the content were marked
+            as clearly unfair.
+        </p>
+<br>
+            <img src="icone/a.png" align="left">
+        <p style="border: solid red; background-color: #f2f2f2" >
+          The <b style="color: red"> arbitration </b> clause requires or allows the parties to resolve their disputes through an arbitration process, before the case could go to court. It is
+            therefore considered a kind of forum selection clause. However, such a clause
+            may or may not specify that arbitration should occur within a specific jurisdiction.
+        </p>
+<br>
+
+<hr>
+             <div align="center"> <p class="intro"> Each clause has a fair level. </p> </div>
+
+           <img src="fairness/Fair.png" align="left" width="125" height="35">
+        <p style="border: solid forestgreen; background-color: #f2f2f2" >
+          The <b style="color: forestgreen"> Fair </b> specify that they will not harm you.
+        </p>
+<br>
+               <img src="fairness/PotUnfair.png" align="left" width="125" height="45">
+        <p style="border: solid gold; background-color: #f2f2f2" >
+          The <b style="color: gold"> Potentiallu Unfair </b> indicate that often appearing in the terms of on-line services: 1)
+establishing jurisdiction for disputes in a country different than consumers
+residence; 2) choice of a foreign law governing the contract; 3) limitation of liability; 4) the provider’s right to unilaterally terminate the contract/access to
+the service; and 5) the provider’s right to unilaterally modify the contract/the
+service. Our research has identified three additional categories: 6) requiring
+a consumer to undertake arbitration before the court proceedings can commence; 7) the provider retaining the right to unilaterally remove consumer
+content from the service, including in-app purchases; 8) having a consumer
+accept the agreement simply by using the service, not only without reading it,
+but even without having to click on “I agree/I accept.”
+
+        </p>
+<br>
+         <img src="fairness/Unfair.png" align="left" width="125" height="35">
+        <p style="border: solid red; background-color: #f2f2f2" >
+          The <b style="color: red"> Unfair </b> indicate that contractual term is unfair if: 1) it has not been individually negotiated;
+            and 2) contrary to the requirement of good faith, it causes a significant imbalance in the parties rights
+            and obligations, to the detriment of the consumer.
+        </p>
+
+<br>
+        <p style="border: solid #78b3b3; background-color: #f2f2f2" >
+          The <b style="color: #78b3b3"> percentage </b> indicates the probability that the clause is of that type of fairness
+        </p>
+    </div>
+        <div align="center">
+            <button id="bottoneI" value="Home"> <a href="popup.html"> Home </a> </button>
+        </div>
+
+ <footer class="fooot">
+        <hr>
+        <div align="center">
+            <a class="fott" href="istruzioni.html">
+            <img id="logofoot" src="ToSLogo.png" height="50" width="100" title="information" />
+            </a>
+        </div>
+
+        <div>
+            <div id="con" align="center">
+            <a class="fott" href="contatti.html"> <p class="pfoot" style="color: #C00001"> Contact </p> </a>
+        </div>
+        <div id="paper" align="center">
+            <a class="fott" href="https://link.springer.com/article/10.1007/s10506-019-09243-2"><p class="pfoot" style="color: #C00001">The taxonomy
+                here proposed has been conceived in the paper</p> </a>
+        </div>
+        <p id="finale" style="color: grey"> ToSware 2020</p>
+        </div>
+
+    </footer>
+
+
+    </body>
+</html>

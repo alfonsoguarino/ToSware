@@ -1,0 +1,172 @@
+button {
+  background-color: #C00001;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+body{
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+button:hover {
+  background-color: #a00800;
+}
+textarea{
+  border-radius: 20px;
+}
+#bottoneSH2{
+
+    background: #C00001;
+}
+#bottoneSH{
+
+    background: #f2f2f2;
+    color: black;
+}
+
+.allinea{
+    display: inline;
+}
+
+
+#divbottoneSH{
+    margin-left: 40px;
+}
+
+p.percentuale{
+    background: #78b3b3;
+    color: black;
+    border-radius: 30px;
+    padding: 5px;
+    padding-bottom: 8px;
+    font-size: large;
+    width: 42px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+p.potUN{
+    border-radius: 30px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    background: gold;
+    color: white;
+    font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+p.Fair{
+    border-radius: 30px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    background: forestgreen;
+    color: white;
+    font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif, bold;
+}
+p.Unfair{
+    border-radius: 30px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif, bold;
+}
+
+table{
+    background-color: white;
+    width: 100%;
+    align-content: center;
+    border-radius: 5px;
+    border-spacing: 10px;
+    border-collapse: separate;
+
+    font-family: "Trebuchet MS", sans-serif;;
+}
+
+#subjectT{
+    width: 600px;
+    height: 300px;
+    font-family: "Trebuchet MS", sans-serif;
+    border-color: black;
+    resize: none;
+}
+
+#descSH{
+    margin-left: 150px;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border: #C00001;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #C00001;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 90%;
+  left: 1%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: medium;
+}
+
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #C00001 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 5;
+  overflow:visible;
+}
+
+.pfoot{
+    background: white;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: small;
+}
+
+div.foot{
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    align-self: center;
+}
+
+a.fott{
+    text-decoration: none;
+    height: 35px ;
+    width: 75px;
+}
+
+#finale{
+    font-size: small;
+    background: white;
+    font-family: Roboto;
+}

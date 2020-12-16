@@ -9,5 +9,6 @@ To enhance users' awareness and uphold legal safeguards, we propose ToSware, an 
 ToSware server side runs on Linux machines with more than 8GB RAM.
 
 Add __init.py__ at /Server component level
+
 Add __init.py__ at /Server component/migrations level
 
